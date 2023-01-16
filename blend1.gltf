@@ -18,21 +18,11 @@
                 7,
                 8,
                 9,
-                10,
-                11,
-                12
+                10
             ]
         }
     ],
     "nodes" : [
-        {
-            "name" : "Empty.001",
-            "translation" : [
-                0,
-                0.061229053884744644,
-                -1.9328904151916504
-            ]
-        },
         {
             "mesh" : 0,
             "name" : "Cube",
@@ -40,14 +30,6 @@
                 -0.03465473651885986,
                 0.018398262560367584,
                 -0.14699715375900269
-            ]
-        },
-        {
-            "name" : "Point",
-            "translation" : [
-                -1.2863415479660034,
-                1.7464255094528198,
-                -0.20209479331970215
             ]
         },
         {
@@ -155,6 +137,20 @@
         },
         {
             "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        },
+        {
+            "doubleSided" : true,
             "name" : "Material.002",
             "pbrMetallicRoughness" : {}
         }
@@ -198,7 +194,7 @@
                         "TEXCOORD_0" : 10
                     },
                     "indices" : 7,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -212,7 +208,7 @@
                         "TEXCOORD_0" : 13
                     },
                     "indices" : 7,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -226,7 +222,7 @@
                         "TEXCOORD_0" : 16
                     },
                     "indices" : 17,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -240,7 +236,7 @@
                         "TEXCOORD_0" : 20
                     },
                     "indices" : 17,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -254,7 +250,7 @@
                         "TEXCOORD_0" : 23
                     },
                     "indices" : 24,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -268,7 +264,7 @@
                         "TEXCOORD_0" : 27
                     },
                     "indices" : 24,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -282,7 +278,7 @@
                         "TEXCOORD_0" : 30
                     },
                     "indices" : 31,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -296,7 +292,7 @@
                         "TEXCOORD_0" : 34
                     },
                     "indices" : 31,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
